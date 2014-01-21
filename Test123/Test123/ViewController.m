@@ -27,8 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)doneButton:(id)sender
+{
+}
+
 - (IBAction)clickButton:(id)sender
 {
     NSLog(@"Click Button pressed");
+
 }
 @end
