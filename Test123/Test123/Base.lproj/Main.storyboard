@@ -9,8 +9,9 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="F5S-ff-qe8"/>
-                        <viewControllerLayoutGuide type="bottom" id="cy4-s4-GmS"/>
+                        <viewControllerLayoutGuide type="top" id="Bxu-Wq-CNs"/>
+                        <viewControllerLayoutGuide type="bottom" id="F4A-Np-2y5"/>
+
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -24,6 +25,18 @@
                                 </state>
                                 <connections>
                                     <action selector="doneButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7L2-2H-LTJ"/>
+                                    </connections>
+                                </button>
+
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvh-6O-Zua">
+                                <rect key="frame" x="137" y="269" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RLQ-hA-ICd"/>
+
                                 </connections>
                             </button>
                         </subviews>
